@@ -1,0 +1,41 @@
+.navbar .navbar-nav .nav-link:not(.btn) i.fa{
+      font-size: 18px;
+      position: relative;
+      top: 3px;
+      text-align: center;
+      width: 21px;
+}
+
+.page-header-image{
+	background: url(komikero-bg.jpg);
+	transform: translate3d(0px, 0px, 0px);
+
+}
+
+.suh {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+}
+#about-komikero {
+    background: -webkit-linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
+        url(komik-logo.jpg);;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
+        url(komik-logo.jpg);
+}
+
+.title {
+	text-align: center; 
+  color: yellow;
+}
+
+.description {
+	text-align: center;
+  color: white;
+}
+.rounded {
+	max-width: 100%;
+  box-shadow: 10px 15px 8px #888888;
+  margin-bottom: 110px;
+  margin-top: 20px;
+}
